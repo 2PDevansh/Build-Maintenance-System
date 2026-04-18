@@ -17,7 +17,17 @@ def main():
         elif choice == "2":
             view_requests()
         elif choice == "3":
-            analyze_data()
+            print("1. Analyze Local Data")
+            print("2. Analyze HDFS Data")
+
+            sub_choice = input("Enter choice: ")
+
+            if sub_choice == "1":
+                analyze_data(use_hdfs=False)
+            elif sub_choice == "2":
+                analyze_data(use_hdfs=True)
+            else:
+                print("Invalid choice")
         elif choice == "4":
             print("Exiting...")
             break

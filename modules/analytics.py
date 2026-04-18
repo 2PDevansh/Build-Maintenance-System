@@ -1,19 +1,19 @@
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import initcap
 
 def analyze_data():
-    # Create Spark session
     spark = SparkSession.builder \
         .appName("MaintenanceAnalysis") \
+        .master("local[*]") \
         .getOrCreate()
 
-    # Read CSV data
-    df = spark.read.csv("data/requests.csv", header=True, inferSchema=True)
+    df = spark.read.csv(
+        "hdfs://namenode:9000/data/requests.csv",
+        header=True,
+        inferSchema=True
+    )
 
-    # Clean / normalize data (important)
-    df = df.dropna()  # remove empty rows
-
-    # Standardize text (avoid low vs Low issue)
-    from pyspark.sql.functions import initcap
+    df = df.dropna()
     df = df.withColumn("priority", initcap(df["priority"]))
     df = df.withColumn("issue_type", initcap(df["issue_type"]))
 
@@ -25,5 +25,8 @@ def analyze_data():
 
     print("\n=== Status Count ===")
     df.groupBy("status").count().show()
+    
 
     spark.stop()
+if __name__ == "__main__":
+    analyze_data()
