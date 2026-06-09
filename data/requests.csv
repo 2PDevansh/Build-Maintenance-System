@@ -1,0 +1,7 @@
+id,issue_type,description,priority,status,date
+1,Plumbing,Pipe leak,High,Open,2026-06-09
+2,Electrical,Light fixture not working,Low,Open,2026-06-09
+3,Electrical,not working  i.e. connecting properly,Low,Open,2026-06-09
+4,Plumbing,Water leakage detected in washroom near Block A,High,Open,2026-06-09
+5,Electrical,Corridor lights on 3rd floor not functioning,Medium,Open,2026-06-09
+6,Hvac,Air conditioning unit not cooling in Conference Room,High,In Progress,2026-06-09

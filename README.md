@@ -9,17 +9,20 @@ A distributed Building Maintenance System that:
 * Uses **Apache Spark** for analytics
 * Provides APIs via **FastAPI**
 * Runs fully containerized using **Docker**
-=======
+
 # Building Maintenance System
 
 A building maintenance management app for tracking maintenance requests and reviewing simple request analytics.
 
 ## Features
->>>>>>> 726603d (Added React frontend dashboard and enhanced analytics)
 
 - Add maintenance requests from the frontend or Python CLI
 - View all requests from CSV storage
 - Analyze issue type and priority counts
+- Search and filter requests by issue and priority
+- Close or delete requests from the dashboard
+- View HDFS-style live node and storage status
+- Recharts pie and bar charts for issue and priority analytics
 - FastAPI backend with React frontend
 - Docker-ready project structure
 
@@ -181,7 +184,7 @@ Reason:
 * Build frontend dashboard (React)
 * Integrate Kafka for real-time streaming
 * Add authentication
-=======
+
 ## Tech Stack
 
 | Technology | Purpose |
@@ -191,13 +194,13 @@ Reason:
 | Pandas | API analytics |
 | PySpark | CLI analytics |
 | React + Vite | Frontend dashboard |
+| Recharts | Dashboard charts |
 | CSV | Lightweight storage |
->>>>>>> 726603d (Added React frontend dashboard and enhanced analytics)
+
 
 ## Run Backend
 
-=======
-```powershell
+
 python -m uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
@@ -236,4 +239,3 @@ modules/          CLI modules and Spark analytics
 app.py            Python CLI entrypoint
 requirements.txt  Python dependencies
 ```
->>>>>>> 726603d (Added React frontend dashboard and enhanced analytics)

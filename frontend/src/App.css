@@ -113,7 +113,7 @@ h1 {
 }
 
 .metrics-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   margin: 20px 0 16px;
 }
 
@@ -157,8 +157,20 @@ h1 {
   font-size: 1.8rem;
 }
 
+.metric-card small {
+  display: block;
+  margin-top: 4px;
+  color: #66736d;
+  font-weight: 700;
+}
+
+.hdfs-card > span {
+  color: #1d4ed8;
+  background: #dbeafe;
+}
+
 .workspace-grid {
-  grid-template-columns: minmax(280px, 0.92fr) minmax(320px, 1.08fr);
+  grid-template-columns: minmax(280px, 0.82fr) minmax(320px, 1fr) minmax(320px, 1fr);
   align-items: stretch;
 }
 
@@ -221,12 +233,90 @@ textarea {
   gap: 12px;
 }
 
-.primary-button {
+.primary-button,
+.secondary-button {
   gap: 8px;
   min-height: 44px;
   border-radius: 8px;
+  font-weight: 800;
+}
+
+.primary-button {
   color: #ffffff;
   background: #23695a;
+}
+
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cbd8d2;
+  padding: 0 16px;
+  color: #153f37;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.chart-box {
+  height: 280px;
+}
+
+.svg-chart-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-items: center;
+  gap: 18px;
+  min-height: 260px;
+}
+
+.pie-svg {
+  width: 220px;
+  max-width: 100%;
+  filter: drop-shadow(0 12px 18px rgba(31, 56, 47, 0.12));
+}
+
+.chart-legend {
+  display: grid;
+  gap: 10px;
+}
+
+.chart-legend-row {
+  display: grid;
+  grid-template-columns: 12px 1fr 48px;
+  align-items: center;
+  gap: 10px;
+  color: #33423c;
+}
+
+.chart-legend-row span {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+}
+
+.chart-legend-row em {
+  color: #66736d;
+  font-style: normal;
+  font-weight: 800;
+  text-align: right;
+}
+
+.bar-chart {
+  display: grid;
+  align-content: center;
+  gap: 22px;
+  min-height: 260px;
+}
+
+.bar-item {
+  display: grid;
+  gap: 8px;
+}
+
+.bar-label {
+  display: flex;
+  justify-content: space-between;
+  color: #33423c;
   font-weight: 800;
 }
 
@@ -283,6 +373,51 @@ textarea {
   margin-top: 16px;
 }
 
+.table-toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+
+.filters {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  width: min(620px, 100%);
+}
+
+.filters label {
+  flex: 1 1 260px;
+}
+
+.segmented-control {
+  display: inline-flex;
+  min-height: 42px;
+  overflow: hidden;
+  border: 1px solid #cbd8d2;
+  border-radius: 8px;
+}
+
+.segmented-control button {
+  border: 0;
+  border-right: 1px solid #cbd8d2;
+  padding: 0 12px;
+  color: #33423c;
+  background: #ffffff;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.segmented-control button:last-child {
+  border-right: 0;
+}
+
+.segmented-control .active {
+  color: #ffffff;
+  background: #23695a;
+}
+
 .table-wrap {
   width: 100%;
   overflow-x: auto;
@@ -290,7 +425,7 @@ textarea {
 
 table {
   width: 100%;
-  min-width: 760px;
+  min-width: 980px;
   border-collapse: collapse;
 }
 
@@ -337,6 +472,79 @@ td {
   background: #dff1eb;
 }
 
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 104px;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.status-pill::before {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  content: "";
+}
+
+.status-open {
+  color: #9a3412;
+  background: #ffedd5;
+}
+
+.status-open::before {
+  background: #f97316;
+}
+
+.status-in-progress {
+  color: #1d4ed8;
+  background: #dbeafe;
+}
+
+.status-in-progress::before {
+  background: #2563eb;
+}
+
+.status-closed {
+  color: #15803d;
+  background: #dcfce7;
+}
+
+.status-closed::before {
+  background: #16a34a;
+}
+
+.action-row {
+  display: flex;
+  gap: 8px;
+}
+
+.action-row button {
+  min-height: 34px;
+  border: 1px solid #cbd8d2;
+  border-radius: 8px;
+  padding: 0 10px;
+  color: #153f37;
+  background: #ffffff;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.action-row button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.action-row .danger-button {
+  color: #991b1b;
+  border-color: #fecaca;
+  background: #fef2f2;
+}
+
 .spin {
   animation: spin 0.9s linear infinite;
 }
@@ -365,5 +573,28 @@ td {
   .field-row,
   .priority-stack {
     grid-template-columns: 1fr;
+  }
+
+  .table-toolbar,
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .segmented-control {
+    width: 100%;
+  }
+
+  .segmented-control button {
+    flex: 1;
+  }
+
+  .svg-chart-layout {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .chart-legend {
+    width: 100%;
   }
 }

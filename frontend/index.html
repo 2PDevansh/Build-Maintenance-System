@@ -11,14 +11,14 @@
         <div>
           <div class="eyebrow">Facility Operations</div>
           <h1>Building Maintenance System</h1>
-          <p>Track service requests, prioritize urgent work, and review maintenance patterns from one dashboard.</p>
+          <p>Track requests, Hadoop storage status, and maintenance analytics from one dashboard.</p>
         </div>
-        <button class="icon-button" id="refreshButton" type="button" title="Refresh dashboard">Refresh</button>
+        <button class="secondary-button" id="refreshButton" type="button">Refresh</button>
       </section>
 
       <div class="alert hidden" id="errorBox" role="alert"></div>
 
-      <section class="metrics-grid" aria-label="Maintenance summary">
+      <section class="metrics-grid">
         <div class="metric-card">
           <span>TR</span>
           <div>
@@ -40,6 +40,15 @@
             <strong id="highPriority">0</strong>
           </div>
         </div>
+        <div class="metric-card hdfs-card">
+          <span>HD</span>
+          <div>
+            <p>HDFS Status</p>
+            <strong id="hdfsStatus">Offline</strong>
+            <small id="hdfsNodes">Live Nodes: 0</small>
+            <small id="hdfsStorage">Storage Used: 0 MB</small>
+          </div>
+        </div>
       </section>
 
       <section class="workspace-grid">
@@ -50,7 +59,7 @@
 
           <label>
             Issue Type
-            <input name="issue_type" placeholder="Plumbing, Electrical, HVAC" required />
+            <input name="issue_type" placeholder="Electrical, Plumbing, HVAC" required />
           </label>
 
           <label>
@@ -67,7 +76,6 @@
                 <option>Low</option>
               </select>
             </label>
-
             <label>
               Status
               <select name="status">
@@ -83,18 +91,36 @@
 
         <section class="analytics-panel">
           <div class="section-title">
-            <h2>Analytics</h2>
+            <h2>Issue Type Share</h2>
           </div>
-          <div class="chart-list" id="issueChart">
-            <p class="empty-state">Loading analytics...</p>
+          <div class="chart-box" id="issuePieChart"></div>
+        </section>
+
+        <section class="analytics-panel">
+          <div class="section-title">
+            <h2>Priority Distribution</h2>
           </div>
-          <div class="priority-stack" id="priorityStack"></div>
+          <div class="chart-box" id="priorityBarChart"></div>
         </section>
       </section>
 
       <section class="requests-section">
-        <div class="section-title">
-          <h2>Requests</h2>
+        <div class="table-toolbar">
+          <div class="section-title">
+            <h2>Requests</h2>
+          </div>
+          <div class="filters">
+            <label>
+              Search Issue
+              <input id="searchInput" placeholder="Search issue or description" />
+            </label>
+            <div class="segmented-control" id="priorityFilter">
+              <button class="active" type="button" data-priority="All">All</button>
+              <button type="button" data-priority="High">High</button>
+              <button type="button" data-priority="Medium">Medium</button>
+              <button type="button" data-priority="Low">Low</button>
+            </div>
+          </div>
         </div>
 
         <div class="table-wrap">
@@ -107,11 +133,12 @@
                 <th>Priority</th>
                 <th>Status</th>
                 <th>Date</th>
+                <th>Actions</th>
               </tr>
             </thead>
             <tbody id="requestRows">
               <tr>
-                <td colSpan="6" class="table-message">Loading requests...</td>
+                <td colspan="7" class="table-message">Loading requests...</td>
               </tr>
             </tbody>
           </table>
