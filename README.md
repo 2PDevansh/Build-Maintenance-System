@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏢 Building Maintenance System (Hadoop + Spark + FastAPI + Docker)
 
 ## 🚀 Overview
@@ -24,7 +23,6 @@ A building maintenance management app for tracking maintenance requests and revi
 - FastAPI backend with React frontend
 - Docker-ready project structure
 
-<<<<<<< HEAD
 ## 🧱 Tech Stack
 
 * Python
