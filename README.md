@@ -1,4 +1,4 @@
-# 🏢 Building Maintenance System (Hadoop + Spark + FastAPI + Docker)
+# 🏢 BuildPulse Analytics System (Hadoop + Spark + FastAPI + Docker)
 
 ## 🚀 Overview
 
@@ -10,7 +10,7 @@ A distributed Building Maintenance System that:
 * Provides APIs via **FastAPI**
 * Runs fully containerized using **Docker**
 
-# Building Maintenance System
+# BuildPulse Analytics System
 
 A building maintenance management app for tracking maintenance requests and reviewing simple request analytics.
 
