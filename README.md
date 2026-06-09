@@ -239,3 +239,13 @@ modules/          CLI modules and Spark analytics
 app.py            Python CLI entrypoint
 requirements.txt  Python dependencies
 ```
+
+## Screenshots
+
+<img width="929" height="277" alt="image" src="https://github.com/user-attachments/assets/33937555-e3df-46b8-be63-77661466c35d" />
+
+<img width="928" height="359" alt="image" src="https://github.com/user-attachments/assets/a77e5147-d48c-469a-8e39-0efef1598bc7" />
+
+<img width="911" height="281" alt="image" src="https://github.com/user-attachments/assets/9c8272d9-3050-4994-bd20-f3ab7ef772ca" />
+
+
