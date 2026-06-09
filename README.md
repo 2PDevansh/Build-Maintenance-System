@@ -240,7 +240,7 @@ app.py            Python CLI entrypoint
 requirements.txt  Python dependencies
 ```
 
-## Screenshots
+## Screenshot
 
 <img width="929" height="277" alt="image" src="https://github.com/user-attachments/assets/33937555-e3df-46b8-be63-77661466c35d" />
 
