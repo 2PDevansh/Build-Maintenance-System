@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏢 Building Maintenance System (Hadoop + Spark + FastAPI + Docker)
 
 ## 🚀 Overview
@@ -9,9 +10,21 @@ A distributed Building Maintenance System that:
 * Uses **Apache Spark** for analytics
 * Provides APIs via **FastAPI**
 * Runs fully containerized using **Docker**
+=======
+# Building Maintenance System
 
----
+A building maintenance management app for tracking maintenance requests and reviewing simple request analytics.
 
+## Features
+>>>>>>> 726603d (Added React frontend dashboard and enhanced analytics)
+
+- Add maintenance requests from the frontend or Python CLI
+- View all requests from CSV storage
+- Analyze issue type and priority counts
+- FastAPI backend with React frontend
+- Docker-ready project structure
+
+<<<<<<< HEAD
 ## 🧱 Tech Stack
 
 * Python
@@ -170,6 +183,60 @@ Reason:
 * Build frontend dashboard (React)
 * Integrate Kafka for real-time streaming
 * Add authentication
+=======
+## Tech Stack
 
----
+| Technology | Purpose |
+| --- | --- |
+| Python | Backend and CLI logic |
+| FastAPI | HTTP API |
+| Pandas | API analytics |
+| PySpark | CLI analytics |
+| React + Vite | Frontend dashboard |
+| CSV | Lightweight storage |
+>>>>>>> 726603d (Added React frontend dashboard and enhanced analytics)
 
+## Run Backend
+
+<<<<<<< HEAD
+=======
+```powershell
+python -m uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
+```
+
+API URL: `http://127.0.0.1:8000`
+
+## Run Frontend
+
+From the `frontend` folder:
+
+```powershell
+npm.cmd install
+npm.cmd run dev
+```
+
+Frontend URL: `http://127.0.0.1:5173`
+
+Use `npm.cmd` in PowerShell if `npm` is blocked by the Windows script execution policy.
+
+## Build Frontend
+
+```powershell
+cd frontend
+npm.cmd run build
+npm.cmd run preview
+```
+
+Preview URL: `http://127.0.0.1:4173`
+
+## Project Structure
+
+```text
+api/              FastAPI application
+data/             CSV request data
+frontend/         React/Vite frontend
+modules/          CLI modules and Spark analytics
+app.py            Python CLI entrypoint
+requirements.txt  Python dependencies
+```
+>>>>>>> 726603d (Added React frontend dashboard and enhanced analytics)

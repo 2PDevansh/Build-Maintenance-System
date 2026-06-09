@@ -1,0 +1,19 @@
+✘ [ERROR] Cannot read directory "../../../../../..": Access is denied.
+
+✘ [ERROR] Could not resolve "C:\\Users\\KIIT0001\\Desktop\\code_plac_prac\\python\\PROJECT\\Build Maintenance System\\frontend\\vite.config.js"
+
+[31mfailed to load config from C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\vite.config.js[39m
+[31merror when starting dev server:
+Error: Build failed with 2 errors:
+error: Cannot read directory "../../../../../..": Access is denied.
+error: Could not resolve "C:\\Users\\KIIT0001\\Desktop\\code_plac_prac\\python\\PROJECT\\Build Maintenance System\\frontend\\vite.config.js"
+    at failureErrorWithLog (C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\node_modules\esbuild\lib\main.js:1748:15)
+    at C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\node_modules\esbuild\lib\main.js:1207:25
+    at runOnEndCallbacks (C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\node_modules\esbuild\lib\main.js:1588:45)
+    at buildResponseToResult (C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\node_modules\esbuild\lib\main.js:1205:7)
+    at C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\node_modules\esbuild\lib\main.js:1232:16
+    at responseCallbacks.<computed> (C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\node_modules\esbuild\lib\main.js:884:9)
+    at handleIncomingPacket (C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\node_modules\esbuild\lib\main.js:939:12)
+    at Socket.readFromStdout (C:\Users\KIIT0001\Desktop\code_plac_prac\python\PROJECT\Build Maintenance System\frontend\node_modules\esbuild\lib\main.js:862:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)[39m

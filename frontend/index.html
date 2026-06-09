@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Building Maintenance System</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="dashboard-header">
+        <div>
+          <div class="eyebrow">Facility Operations</div>
+          <h1>Building Maintenance System</h1>
+          <p>Track service requests, prioritize urgent work, and review maintenance patterns from one dashboard.</p>
+        </div>
+        <button class="icon-button" id="refreshButton" type="button" title="Refresh dashboard">Refresh</button>
+      </section>
+
+      <div class="alert hidden" id="errorBox" role="alert"></div>
+
+      <section class="metrics-grid" aria-label="Maintenance summary">
+        <div class="metric-card">
+          <span>TR</span>
+          <div>
+            <p>Total Requests</p>
+            <strong id="totalRequests">0</strong>
+          </div>
+        </div>
+        <div class="metric-card">
+          <span>OR</span>
+          <div>
+            <p>Open Requests</p>
+            <strong id="openRequests">0</strong>
+          </div>
+        </div>
+        <div class="metric-card">
+          <span>HP</span>
+          <div>
+            <p>High Priority</p>
+            <strong id="highPriority">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-grid">
+        <form class="request-form" id="requestForm">
+          <div class="section-title">
+            <h2>Add Request</h2>
+          </div>
+
+          <label>
+            Issue Type
+            <input name="issue_type" placeholder="Plumbing, Electrical, HVAC" required />
+          </label>
+
+          <label>
+            Description
+            <textarea name="description" placeholder="Describe the maintenance issue" rows="4" required></textarea>
+          </label>
+
+          <div class="field-row">
+            <label>
+              Priority
+              <select name="priority">
+                <option>High</option>
+                <option selected>Medium</option>
+                <option>Low</option>
+              </select>
+            </label>
+
+            <label>
+              Status
+              <select name="status">
+                <option selected>Open</option>
+                <option>In Progress</option>
+                <option>Closed</option>
+              </select>
+            </label>
+          </div>
+
+          <button class="primary-button" id="saveButton" type="submit">Create Request</button>
+        </form>
+
+        <section class="analytics-panel">
+          <div class="section-title">
+            <h2>Analytics</h2>
+          </div>
+          <div class="chart-list" id="issueChart">
+            <p class="empty-state">Loading analytics...</p>
+          </div>
+          <div class="priority-stack" id="priorityStack"></div>
+        </section>
+      </section>
+
+      <section class="requests-section">
+        <div class="section-title">
+          <h2>Requests</h2>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Issue</th>
+                <th>Description</th>
+                <th>Priority</th>
+                <th>Status</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody id="requestRows">
+              <tr>
+                <td colSpan="6" class="table-message">Loading requests...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1017 @@
+✘ [ERROR] Cannot read directory "../../../../../..": Access is denied.
+
+✘ [ERROR] Could not resolve "./cjs/react.development.js"
+
+    node_modules/react/index.js:6:27:
+      6 │   module.exports = require('./cjs/react.development.js');
+        ╵                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./cjs/react-dom-client.development.js"
+
+    node_modules/react-dom/client.js:37:27:
+      37 │   module.exports = require('./cjs/react-dom-client.development.js');
+         ╵                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/index.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:8:23:
+      8 │ import * as index from './icons/index.js';
+        ╵                        ~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/alarm-clock-check.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:10:188:
+      10 │ ...lt as LucideAlarmClockCheck } from './icons/alarm-clock-check.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/alarm-clock-minus.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:11:188:
+      11 │ ...default as LucideAlarmMinus } from './icons/alarm-clock-minus.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/alarm-clock-plus.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:12:182:
+      12 │ ..., default as LucideAlarmPlus } from './icons/alarm-clock-plus.js';
+         ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/arrow-down-a-z.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:13:179:
+      13 │ ..., default as LucideArrowDownAz } from './icons/arrow-down-a-z.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/arrow-down-wide-narrow.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:14:194:
+      14 │ ...efault as SortDescIcon } from './icons/arrow-down-wide-narrow.js';
+         ╵                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/arrow-down-z-a.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:15:179:
+      15 │ ..., default as LucideArrowDownZa } from './icons/arrow-down-z-a.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/arrow-up-a-z.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:16:167:
+      16 │ ...UpAZ, default as LucideArrowUpAz } from './icons/arrow-up-a-z.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/arrow-up-narrow-wide.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:17:185:
+      17 │ ..., default as SortAscIcon } from './icons/arrow-up-narrow-wide.js';
+         ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/arrow-up-z-a.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:18:167:
+      18 │ ...UpZA, default as LucideArrowUpZa } from './icons/arrow-up-z-a.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/axis-3d.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:19:149:
+      19 │ ...LucideAxis3D, default as LucideAxis3d } from './icons/axis-3d.js';
+         ╵                                                 ~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/badge-check.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:20:167:
+      20 │ ...Verified, default as VerifiedIcon } from './icons/badge-check.js';
+         ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/between-horizontal-end.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:21:230:
+      21 │ ...deBetweenHorizontalEnd } from './icons/between-horizontal-end.js';
+         ╵                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/between-horizontal-start.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:22:242:
+      22 │ ...tweenHorizontalStart } from './icons/between-horizontal-start.js';
+         ╵                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/book-dashed.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:23:179:
+      23 │ ...ed, default as LucideBookTemplate } from './icons/book-dashed.js';
+         ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/braces.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:24:164:
+      24 │ ...deBraces, default as LucideCurlyBraces } from './icons/braces.js';
+         ╵                                                  ~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/captions.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:25:164:
+      25 │ ... Subtitles, default as SubtitlesIcon } from './icons/captions.js';
+         ╵                                                ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-area.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:26:167:
+      26 │ ...aChart, default as LucideChartArea } from './icons/chart-area.js';
+         ╵                                              ~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-bar-big.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:27:209:
+      27 │ ...g, default as LucideChartBarBig } from './icons/chart-bar-big.js';
+         ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-bar.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:28:191:
+      28 │ ...rizontal, default as LucideChartBar } from './icons/chart-bar.js';
+         ╵                                               ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-candlestick.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:29:209:
+      29 │ ...t as LucideChartCandlestick } from './icons/chart-candlestick.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-column-big.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:30:188:
+      30 │ ...ault as LucideChartColumnBig } from './icons/chart-column-big.js';
+         ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-column-increasing.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:31:203:
+      31 │ ...ChartColumnIncreasing } from './icons/chart-column-increasing.js';
+         ╵                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-column.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:32:173:
+      32 │ ...t3, default as LucideChartColumn } from './icons/chart-column.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-line.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:33:167:
+      33 │ ...rtLine, default as LucideLineChart } from './icons/chart-line.js';
+         ╵                                              ~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-no-axes-column-increasing.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:34:218:
+      34 │ ...umnIncreasing } from './icons/chart-no-axes-column-increasing.js';
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-no-axes-column.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:35:191:
+      35 │ ... LucideChartNoAxesColumn } from './icons/chart-no-axes-column.js';
+         ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-no-axes-gantt.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:36:191:
+      36 │ ...fault as LucideGanttChart } from './icons/chart-no-axes-gantt.js';
+         ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-pie.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:37:161:
+      37 │ ...s PieChart, default as PieChartIcon } from './icons/chart-pie.js';
+         ╵                                               ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/chart-scatter.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:38:185:
+      38 │ ...rt, default as ScatterChartIcon } from './icons/chart-scatter.js';
+         ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-alert.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:39:179:
+      39 │ ...le, default as LucideCircleAlert } from './icons/circle-alert.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-arrow-down.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:40:203:
+      40 │ ...lt as LucideCircleArrowDown } from './icons/circle-arrow-down.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-arrow-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:41:203:
+      41 │ ...lt as LucideCircleArrowLeft } from './icons/circle-arrow-left.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-arrow-out-down-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:42:248:
+      42 │ ...leArrowOutDownLeft } from './icons/circle-arrow-out-down-left.js';
+         ╵                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-arrow-out-down-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:43:254:
+      43 │ ...ArrowOutDownRight } from './icons/circle-arrow-out-down-right.js';
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-arrow-out-up-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:44:236:
+      44 │ ...CircleArrowOutUpLeft } from './icons/circle-arrow-out-up-left.js';
+         ╵                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-arrow-out-up-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:45:242:
+      45 │ ...rcleArrowOutUpRight } from './icons/circle-arrow-out-up-right.js';
+         ╵                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-arrow-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:46:209:
+      46 │ ... as LucideCircleArrowRight } from './icons/circle-arrow-right.js';
+         ╵                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-arrow-up.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:47:191:
+      47 │ ...efault as LucideCircleArrowUp } from './icons/circle-arrow-up.js';
+         ╵                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-check-big.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:48:188:
+      48 │ ...ault as LucideCircleCheckBig } from './icons/circle-check-big.js';
+         ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-check.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:49:182:
+      49 │ ...e2, default as LucideCircleCheck } from './icons/circle-check.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-chevron-down.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:50:215:
+      50 │ ...s LucideCircleChevronDown } from './icons/circle-chevron-down.js';
+         ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-chevron-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:51:215:
+      51 │ ...s LucideCircleChevronLeft } from './icons/circle-chevron-left.js';
+         ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-chevron-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:52:221:
+      52 │ ...LucideCircleChevronRight } from './icons/circle-chevron-right.js';
+         ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-chevron-up.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:53:203:
+      53 │ ...lt as LucideCircleChevronUp } from './icons/circle-chevron-up.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-divide.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:54:185:
+      54 │ ..., default as LucideDivideCircle } from './icons/circle-divide.js';
+         ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-gauge.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:55:179:
+      55 │ ...ge, default as LucideGaugeCircle } from './icons/circle-gauge.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-help.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:56:173:
+      56 │ ...Help, default as LucideHelpCircle } from './icons/circle-help.js';
+         ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-minus.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:57:179:
+      57 │ ...rcle, default as MinusCircleIcon } from './icons/circle-minus.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-parking-off.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:58:209:
+      58 │ ...lt as ParkingCircleOffIcon } from './icons/circle-parking-off.js';
+         ╵                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-parking.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:59:191:
+      59 │ ..., default as ParkingCircleIcon } from './icons/circle-parking.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-pause.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:60:179:
+      60 │ ...rcle, default as PauseCircleIcon } from './icons/circle-pause.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-percent.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:61:191:
+      61 │ ..., default as PercentCircleIcon } from './icons/circle-percent.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-play.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:62:173:
+      62 │ ...Circle, default as PlayCircleIcon } from './icons/circle-play.js';
+         ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-plus.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:63:173:
+      63 │ ...Circle, default as PlusCircleIcon } from './icons/circle-plus.js';
+         ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-power.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:64:179:
+      64 │ ...rcle, default as PowerCircleIcon } from './icons/circle-power.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-slash-2.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:65:188:
+      65 │ ...default as LucideCircleSlashed } from './icons/circle-slash-2.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-stop.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:66:173:
+      66 │ ...Circle, default as StopCircleIcon } from './icons/circle-stop.js';
+         ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-user-round.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:67:191:
+      67 │ ... default as UserCircle2Icon } from './icons/circle-user-round.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-user.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:68:173:
+      68 │ ...Circle, default as UserCircleIcon } from './icons/circle-user.js';
+         ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/circle-x.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:69:155:
+      69 │ ...t as XCircle, default as XCircleIcon } from './icons/circle-x.js';
+         ╵                                                ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/clipboard-pen-line.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:70:215:
+      70 │ ...s LucideClipboardSignature } from './icons/clipboard-pen-line.js';
+         ╵                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/clipboard-pen.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:71:188:
+      71 │ ..., default as LucideClipboardPen } from './icons/clipboard-pen.js';
+         ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/cloud-download.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:72:191:
+      72 │ ...default as LucideDownloadCloud } from './icons/cloud-download.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/cloud-upload.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:73:179:
+      73 │ ...loud, default as UploadCloudIcon } from './icons/cloud-upload.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/code-xml.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:74:149:
+      74 │ ...ucideCode2, default as LucideCodeXml } from './icons/code-xml.js';
+         ╵                                                ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/columns-2.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:75:158:
+      75 │ ...eColumns, default as LucideColumns2 } from './icons/columns-2.js';
+         ╵                                               ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/columns-3.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:76:182:
+      76 │ ...ght, default as PanelsLeftRightIcon } from './icons/columns-3.js';
+         ╵                                               ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/contact-round.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:77:173:
+      77 │ ..., default as LucideContactRound } from './icons/contact-round.js';
+         ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/diamond-percent.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:78:197:
+      78 │ ...default as PercentDiamondIcon } from './icons/diamond-percent.js';
+         ╵                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/earth.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:79:146:
+      79 │ ...as LucideEarth, default as LucideGlobe2 } from './icons/earth.js';
+         ╵                                                   ~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/ellipsis-vertical.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:80:197:
+      80 │ ...default as MoreVerticalIcon } from './icons/ellipsis-vertical.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/ellipsis.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:81:179:
+      81 │ ...ontal, default as MoreHorizontalIcon } from './icons/ellipsis.js';
+         ╵                                                ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/file-axis-3d.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:82:173:
+      82 │ ...s3D, default as LucideFileAxis3d } from './icons/file-axis-3d.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/file-chart-column-increasing.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:83:224:
+      83 │ ...ColumnIncreasing } from './icons/file-chart-column-increasing.js';
+         ╵                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/file-chart-column.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:84:197:
+      84 │ ...lt as LucideFileChartColumn } from './icons/file-chart-column.js';
+         ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/file-chart-line.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:85:191:
+      85 │ ...efault as LucideFileLineChart } from './icons/file-chart-line.js';
+         ╵                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/file-chart-pie.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:86:185:
+      86 │ ... default as LucideFilePieChart } from './icons/file-chart-pie.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/file-cog.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:87:158:
+      87 │ ...deFileCog, default as LucideFileCog2 } from './icons/file-cog.js';
+         ╵                                                ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/file-pen-line.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:88:185:
+      88 │ ... default as LucideFileSignature } from './icons/file-pen-line.js';
+         ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/file-pen.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:89:158:
+      89 │ ...deFileEdit, default as LucideFilePen } from './icons/file-pen.js';
+         ╵                                                ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/folder-cog.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:90:170:
+      90 │ ...erCog, default as LucideFolderCog2 } from './icons/folder-cog.js';
+         ╵                                              ~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/folder-pen.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:91:170:
+      91 │ ...erEdit, default as LucideFolderPen } from './icons/folder-pen.js';
+         ╵                                              ~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/git-commit-horizontal.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:92:197:
+      92 │ ...cideGitCommitHorizontal } from './icons/git-commit-horizontal.js';
+         ╵                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/grid-2x2-plus.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:93:179:
+      93 │ ...s, default as LucideGrid2x2Plus } from './icons/grid-2x2-plus.js';
+         ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/grid-2x2.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:94:155:
+      94 │ ...ideGrid2X2, default as LucideGrid2x2 } from './icons/grid-2x2.js';
+         ╵                                                ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/grid-3x3.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:95:216:
+      95 │ ...ideGrid3X3, default as LucideGrid3x3 } from './icons/grid-3x3.js';
+         ╵                                                ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/hand-helping.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:96:179:
+      96 │ ...ng, default as LucideHelpingHand } from './icons/hand-helping.js';
+         ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/house.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:97:140:
+      97 │ ...t as LucideHome, default as LucideHouse } from './icons/house.js';
+         ╵                                                   ~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/ice-cream-bowl.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:98:176:
+      98 │ ... default as LucideIceCreamBowl } from './icons/ice-cream-bowl.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/ice-cream-cone.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:99:173:
+      99 │ ... default as LucideIceCreamCone } from './icons/ice-cream-cone.js';
+         ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/indent-decrease.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:100:176:
+      100 │ ...dent, default as OutdentIcon } from './icons/indent-decrease.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/indent-increase.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:101:173:
+      101 │ ...ault as LucideIndentIncrease } from './icons/indent-increase.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/laptop-minimal.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:102:173:
+      102 │ ...efault as LucideLaptopMinimal } from './icons/laptop-minimal.js';
+          ╵                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/layers.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:103:152:
+      103 │ ...ucideLayers, default as LucideLayers3 } from './icons/layers.js';
+          ╵                                                 ~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/loader-circle.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:104:170:
+      104 │ ... default as LucideLoaderCircle } from './icons/loader-circle.js';
+          ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/lock-keyhole-open.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:105:197:
+      105 │ ...fault as UnlockKeyholeIcon } from './icons/lock-keyhole-open.js';
+          ╵                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/lock-open.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:106:155:
+      106 │ ...t as Unlock, default as UnlockIcon } from './icons/lock-open.js';
+          ╵                                              ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/mic-vocal.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:107:149:
+      107 │ ... MicVocal, default as MicVocalIcon } from './icons/mic-vocal.js';
+          ╵                                              ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/move-3d.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:108:149:
+      108 │ ...ult as Move3d, default as Move3dIcon } from './icons/move-3d.js';
+          ╵                                                ~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/octagon-alert.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:109:185:
+      109 │ ...t, default as OctagonAlertIcon } from './icons/octagon-alert.js';
+          ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/octagon-pause.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:110:185:
+      110 │ ...n, default as PauseOctagonIcon } from './icons/octagon-pause.js';
+          ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/octagon-x.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:111:161:
+      111 │ ... XOctagon, default as XOctagonIcon } from './icons/octagon-x.js';
+          ╵                                              ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/paintbrush-vertical.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:112:200:
+      112 │ ...s PaintbrushVerticalIcon } from './icons/paintbrush-vertical.js';
+          ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/panel-bottom-dashed.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:113:221:
+      113 │ ... PanelBottomInactiveIcon } from './icons/panel-bottom-dashed.js';
+          ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/panel-left-close.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:114:191:
+      114 │ ...default as SidebarCloseIcon } from './icons/panel-left-close.js';
+          ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/panel-left-dashed.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:115:209:
+      115 │ ...t as PanelLeftInactiveIcon } from './icons/panel-left-dashed.js';
+          ╵                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/panel-left-open.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:116:185:
+      116 │ ..., default as SidebarOpenIcon } from './icons/panel-left-open.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/panel-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:117:161:
+      117 │ ...s Sidebar, default as SidebarIcon } from './icons/panel-left.js';
+          ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/panel-right-dashed.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:118:215:
+      118 │ ...as PanelRightInactiveIcon } from './icons/panel-right-dashed.js';
+          ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/panel-top-dashed.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:119:203:
+      119 │ ...ult as PanelTopInactiveIcon } from './icons/panel-top-dashed.js';
+          ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/panels-top-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:120:170:
+      120 │ ...default as PanelsTopLeftIcon } from './icons/panels-top-left.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/pen-line.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:121:149:
+      121 │ ... as PenLine, default as PenLineIcon } from './icons/pen-line.js';
+          ╵                                               ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/pen.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:122:137:
+      122 │ ...ePen, default as Pen, default as PenIcon } from './icons/pen.js';
+          ╵                                                    ~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/plug-zap.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:123:158:
+      123 │ ...lugZap2Icon, default as PlugZapIcon } from './icons/plug-zap.js';
+          ╵                                               ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/rectangle-ellipsis.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:124:191:
+      124 │ ... as RectangleEllipsisIcon } from './icons/rectangle-ellipsis.js';
+          ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/rotate-3d.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:125:161:
+      125 │ ... Rotate3d, default as Rotate3dIcon } from './icons/rotate-3d.js';
+          ╵                                              ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/rows-2.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:126:140:
+      126 │ ...ult as Rows2Icon, default as RowsIcon } from './icons/rows-2.js';
+          ╵                                                 ~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/rows-3.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:127:173:
+      127 │ ...efault as Rows3, default as Rows3Icon } from './icons/rows-3.js';
+          ╵                                                 ~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/scale-3d.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:128:155:
+      128 │ ... as Scale3d, default as Scale3dIcon } from './icons/scale-3d.js';
+          ╵                                               ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/send-horizontal.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:129:194:
+      129 │ ...efault as SendHorizontalIcon } from './icons/send-horizontal.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/shield-x.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:130:167:
+      130 │ ... as ShieldX, default as ShieldXIcon } from './icons/shield-x.js';
+          ╵                                               ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/sliders-vertical.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:131:179:
+      131 │ ...ault as SlidersVerticalIcon } from './icons/sliders-vertical.js';
+          ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/sparkles.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:132:152:
+      132 │ ...ault as Stars, default as StarsIcon } from './icons/sparkles.js';
+          ╵                                               ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-activity.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:133:197:
+      133 │ ...efault as SquareActivityIcon } from './icons/square-activity.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-down-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:134:227:
+      134 │ ...uareArrowDownLeftIcon } from './icons/square-arrow-down-left.js';
+          ╵                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-down-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:135:233:
+      135 │ ...reArrowDownRightIcon } from './icons/square-arrow-down-right.js';
+          ╵                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-down.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:136:203:
+      136 │ ...ult as SquareArrowDownIcon } from './icons/square-arrow-down.js';
+          ╵                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:137:203:
+      137 │ ...ult as SquareArrowLeftIcon } from './icons/square-arrow-left.js';
+          ╵                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-out-down-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:138:248:
+      138 │ ...owOutDownLeftIcon } from './icons/square-arrow-out-down-left.js';
+          ╵                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-out-down-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:139:254:
+      139 │ ...OutDownRightIcon } from './icons/square-arrow-out-down-right.js';
+          ╵                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-out-up-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:140:236:
+      140 │ ...eArrowOutUpLeftIcon } from './icons/square-arrow-out-up-left.js';
+          ╵                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-out-up-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:141:242:
+      141 │ ...rrowOutUpRightIcon } from './icons/square-arrow-out-up-right.js';
+          ╵                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:142:209:
+      142 │ ...t as SquareArrowRightIcon } from './icons/square-arrow-right.js';
+          ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-up-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:143:215:
+      143 │ ...s SquareArrowUpLeftIcon } from './icons/square-arrow-up-left.js';
+          ╵                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-up-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:144:221:
+      144 │ ...SquareArrowUpRightIcon } from './icons/square-arrow-up-right.js';
+          ╵                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-arrow-up.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:145:191:
+      145 │ ...default as SquareArrowUpIcon } from './icons/square-arrow-up.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-asterisk.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:146:197:
+      146 │ ...efault as SquareAsteriskIcon } from './icons/square-asterisk.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-bottom-dashed-scissors.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:147:269:
+      147 │ ...edScissorsIcon } from './icons/square-bottom-dashed-scissors.js';
+          ╵                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-chart-gantt.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:148:306:
+      148 │ ...t as SquareGanttChartIcon } from './icons/square-chart-gantt.js';
+          ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-check-big.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:149:188:
+      149 │ ...fault as SquareCheckBigIcon } from './icons/square-check-big.js';
+          ╵                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-check.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:150:182:
+      150 │ ...eck, default as SquareCheckIcon } from './icons/square-check.js';
+          ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-chevron-down.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:151:215:
+      151 │ ...as SquareChevronDownIcon } from './icons/square-chevron-down.js';
+          ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-chevron-left.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:152:215:
+      152 │ ...as SquareChevronLeftIcon } from './icons/square-chevron-left.js';
+          ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-chevron-right.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:153:221:
+      153 │ ... SquareChevronRightIcon } from './icons/square-chevron-right.js';
+          ╵                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-chevron-up.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:154:203:
+      154 │ ...ult as SquareChevronUpIcon } from './icons/square-chevron-up.js';
+          ╵                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-code.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:155:173:
+      155 │ ...eCode, default as SquareCodeIcon } from './icons/square-code.js';
+          ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-dashed-kanban.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:156:221:
+      156 │ ... SquareDashedKanbanIcon } from './icons/square-dashed-kanban.js';
+          ╵                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-dashed-mouse-pointer.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:157:257:
+      157 │ ...MousePointerIcon } from './icons/square-dashed-mouse-pointer.js';
+          ╵                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-dashed.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:158:176:
+      158 │ ...d, default as SquareDashedIcon } from './icons/square-dashed.js';
+          ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-divide.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:159:185:
+      159 │ ...e, default as SquareDivideIcon } from './icons/square-divide.js';
+          ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-dot.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:160:167:
+      160 │ ...uareDot, default as SquareDotIcon } from './icons/square-dot.js';
+          ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-equal.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:161:179:
+      161 │ ...ual, default as SquareEqualIcon } from './icons/square-equal.js';
+          ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-function.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:162:197:
+      162 │ ...efault as SquareFunctionIcon } from './icons/square-function.js';
+          ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-kanban.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:163:185:
+      163 │ ...n, default as SquareKanbanIcon } from './icons/square-kanban.js';
+          ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-library.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:164:191:
+      164 │ ... default as SquareLibraryIcon } from './icons/square-library.js';
+          ╵                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-m.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:165:155:
+      165 │ ... as SquareM, default as SquareMIcon } from './icons/square-m.js';
+          ╵                                               ~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-menu.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:166:173:
+      166 │ ...eMenu, default as SquareMenuIcon } from './icons/square-menu.js';
+          ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-minus.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:167:179:
+      167 │ ...nus, default as SquareMinusIcon } from './icons/square-minus.js';
+          ╵                                           ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-mouse-pointer.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:168:188:
+      168 │ ... SquareMousePointerIcon } from './icons/square-mouse-pointer.js';
+          ╵                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-parking-off.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:169:209:
+      169 │ ...t as SquareParkingOffIcon } from './icons/square-parking-off.js';
+          ╵                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-parking.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:170:191:
+      170 │ ... default as SquareParkingIcon } from './icons/square-parking.js';
+          ╵                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-pen.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:171:295:
+      171 │ ...uarePen, default as SquarePenIcon } from './icons/square-pen.js';
+          ╵                                             ~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-percent.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:172:191:
+      172 │ ... default as SquarePercentIcon } from './icons/square-percent.js';
+          ╵                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-pi.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:173:161:
+      173 │ ... SquarePi, default as SquarePiIcon } from './icons/square-pi.js';
+          ╵                                              ~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-pilcrow.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:174:191:
+      174 │ ... default as SquarePilcrowIcon } from './icons/square-pilcrow.js';
+          ╵                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] Could not resolve "./icons/square-play.js"
+
+    node_modules/lucide-react/dist/esm/lucide-react.js:175:173:
+      175 │ ...ePlay, default as SquarePlayIcon } from './icons/square-play.js';
+          ╵                                            ~~~~~~~~~~~~~~~~~~~~~~~~
+
+✘ [ERROR] 
